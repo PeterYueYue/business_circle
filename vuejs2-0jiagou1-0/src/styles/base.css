@@ -1,0 +1,375 @@
+@charset "utf-8";
+
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+html,body{
+  color: #333;
+}
+
+ol, ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:focus {
+  outline: none;
+}
+
+a:link {
+  color: #00a0e8
+}
+
+/* 未访问的链接 */
+a:visited {
+  color: #00a0e8
+}
+
+/* 已访问的链接 */
+a:hover {
+  color: #00a0e8
+}
+
+/* 当有鼠标悬停在链接上 */
+a:active {
+  color: #00a0e8
+}
+
+/* 被选择的链接 */
+a:active {
+  text-decoration: none;
+}
+.f_l {
+  float: left;
+}
+
+.f_r {
+  float: right;
+}
+
+.icon {
+  font-size: 14px;
+    margin-right: 4px;
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+.text_center {
+  text-align: center;
+}
+
+.font12 {
+  font-size: 12px;
+}
+
+.font14 {
+  font-size: 14px;
+}
+
+/*提交/取消/确定按钮*/
+.bottom_button {
+  width: 72px;
+}
+
+/*弹框*/
+.dialog-footer .el-button + .el-button {
+  margin-left: 20px;
+}
+
+/*頂部搜索按鈕*/
+.query_button {
+  margin-left: 10px;
+  width: 60px;
+}
+
+.width160_button {
+  width: 160px;
+}
+
+.width72_button {
+  width: 72px;
+}
+
+/*含有表格的頁面*/
+/*.tab_main {
+  color: #333;
+  overflow: auto;
+  margin: 16px 16px 0px 16px;
+  height: calc(100% - 16px);
+}*/
+
+/*顶部区域*/
+.tab_header {
+
+  /*margin-bottom: 10px;*/
+  padding: 10px 10px;
+}
+
+.tab_header span {
+  font-size: 12px;
+}
+
+/*顶部单个搜索框样式(基础)*/
+.tab_header .el-input {
+  width: 220px;
+}
+.padding_16{
+  padding: 16px;
+}
+
+
+
+body{
+  background-color: #f5f5f5;
+}
+
+/*弹框对话框样式*/
+.el-dialog--tiny {
+  min-width: 500px;
+}
+
+.el-dialog--small {
+  width: 800px !important;
+}
+
+/*颜色*/
+.color_red {
+  color: red !important;
+}
+.el-table {
+    font-size: 12px !important;
+  }
+  .el-table td, .el-table th.is-leaf {
+    height: 56px;
+  }
+.el-table {
+  color: #333;
+}
+
+.el-table__header-wrapper thead div {
+  color: #333;
+}
+
+.el-select {
+  width: 160px;
+}
+
+.el-select .el-input {
+  width: 160px;
+}
+
+/*按钮的默认样式*/
+/*.el-button--default{
+    border:1px solid #00a0e9;
+    color: #00a0e9;
+}
+.el-button--default:hover{
+    background-color: #00a0e9;
+    color: #fff;
+}
+.el-button--primary{
+    background: #00a0e9;
+    border-color: #00a0e9;
+}
+.el-button--primary:hover{
+    background: #fff;
+    color: #00a0e9;
+}*/
+
+/*弹框默认样式*/
+.el-dialog__header {
+  padding: 20px 20px 15px 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+/*含有路由的main*/
+.router_main{
+  margin: 16px;
+}
+
+.el-table .cell{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.el-form-item {
+    margin-bottom: 10px;
+}
+
+/*表格*/
+td {
+    text-align: center;
+  }
+
+td div.cell {
+    display: inline-block;
+  }
+
+  .cell {
+    text-align: center;
+    display: flex;
+    align-items: center;
+  }
+  .el-table .cell{
+  padding-left: 0;
+  padding-right: 0;
+}
+.foot_nav {
+    float: right;
+    margin: 32px 10px;
+  }
+
+  .kinds_main .el-input {
+    width: 320px;
+  }
+
+  .kinds_main .el-button {
+    margin-left: 10px;
+  }
+
+  .el-dialog__footer {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .dialog-footer .el-button {
+    width: 72px;
+    height: 30px;
+    padding: 0px;
+}
+
+/*.el-submenu__title{
+  height: 42px;
+  line-height: 42px;
+}
+.el-submenu .el-menu-item {
+    height: 34px;
+    line-height: 34px;
+    padding: 0 60px;
+}
+.el-menu-item, .el-submenu__title {
+  font-size: 12px;
+}*/
+
+
+  /*移除HTML5 input在type="number"时的上下小箭头*/
+  /*在chrome下：*/
+
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button{
+      -webkit-appearance: none !important;
+      margin: 0; 
+  }
+
+/*Firefox下：*/
+
+input[type="number"]{-moz-appearance:textfield;}
+
+
+
+
+.el-breadcrumb{
+  height: 60px;
+  padding-left: 20px;
+  font-size: 16px;
+}
+.el-breadcrumb span{
+  line-height: 60px;
+}
+.neiform .el-input__inner{
+        height: 30px !important;
+    }
+      .neiform .el-button{
+        height: 30px;
+        line-height: 30px;
+        padding: 0 5px;
+        vertical-align: bottom;
+    }
+    .el-form-item__content{
+      line-height: 30px;
+    }
+  .el-menu--dark{
+    background-color: #3f3f3f;
+  }
+  .el-menu--dark .el-submenu .el-menu{
+    background-color: #3f3f3f;
+  }
+  .el-submenu .el-menu-item:hover, .el-submenu__title:hover {
+    background-color: #48576a;
+}
+.el-submenu .el-menu-item{
+  padding-left: 55px !important;
+}
+
+/*时间选择高度*/
+.timechoose_q .el-input__inner{
+        height: 30px !important;
+    }
+.ticket_width200 .el-input{
+  width: 420px;
+}
+.el-form-item__label{
+  font-size: 12px;
+}
+
+.ticket_title_all{
+  font-size: 14px;
+  font-weight: 600;
+}
+.zj-right div span:nth-of-type(2){
+  font-weight: 600;
+}
+.el-radio__label{
+  font-size: 12px;
+}
+.ewjf_items{
+    font-size: 12px !important;
+  }
+.el-checkbox__label{
+  font-size: 12px;
+}
+.el-form-item__content{
+  font-size: 12px;
+}
+.pop-add-model > span {
+    font-size: 12px !important;
+}
+.el-input--small .el-input__inner{
+  font-size: 12px;
+}
+.el-input__icon + .el-input__inner {
+    font-size: 12px;
+}
+ .el-menu-item.is-active {
+    background: #20a0ff;
+    color: #fff;
+}
+
+.xfsq_box .el-form-item__error{
+      padding-top: 2px;
+}
+.xfsq_box .el-form-item {
+    margin-bottom: 17px;
+}
+.el-form-item__label {
+    padding: 9px 12px 9px 0 !important;
+}
+.click_table{
+      padding: 5px;
+}
+.padding_t_l_r_0{
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+} 
+.addgift_c .el-form-item {
+      margin-bottom: 22px !important;
+  }
